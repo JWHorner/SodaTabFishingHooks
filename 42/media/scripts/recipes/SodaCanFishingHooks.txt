@@ -1,0 +1,19 @@
+module Base
+{
+    craftRecipe MakeFishingHook
+	{
+        timedAction = Making,
+		Time = 50,
+		Category = Fishing,
+		Tags = InHandCraft;Fishing,
+		inputs
+		{
+			item 1 [Base.Scissors;Base.Multitool;Base.ScissorsForged] mode:keep flags[IsNotDull;MayDegradeLight],
+            item 1 [Base.SodaCan;Base.BeerCan] mode:destroy flags[IsEmpty],
+		}
+		outputs
+		{
+			item 1 Base.FishingHook,
+		}
+	}
+}

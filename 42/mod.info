@@ -1,0 +1,9 @@
+name=Soda Tab Fishing Hooks
+id=SodaTabFishingHooks
+modversion=1.0
+poster=preview.png
+icon=icon.png
+description=Craft a fishing hook from the tab of an empty soda can 
+author=Nashwan
+category=QoL
+versionMin=42.0.0
